@@ -1,0 +1,16 @@
+Text File VM running project 2.5 Search Prefix
+
+ubuntu@ip-172-31-7-143:~$ cd
+ubuntu@ip-172-31-7-143:~$ git clone git@github.com:Kenyon-CS/2-4-search-prefix-erigoli.git
+Cloning into '2-4-search-prefix-erigoli'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 10 (delta 2), reused 1 (delta 0), pack-reused 0
+Receiving objects: 100% (10/10), done.
+Resolving deltas: 100% (2/2), done.
+ubuntu@ip-172-31-7-143:~$ cd 2-4-search-prefix-erigoli
+ubuntu@ip-172-31-7-143:~/2-4-search-prefix-erigoli$ ls
+README.md  SearchPrefix.rb
+ubuntu@ip-172-31-7-143:~/2-4-search-prefix-erigoli$ ruby SearchPrefix.rb
+["abcde", "abdf", "abdgse"]["bdefa", "bacdef"]ubuntu@ip-172-31-7-143:~/2-4-search-prefix-erigoli$ 
